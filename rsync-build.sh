@@ -1,6 +1,6 @@
 #!/bin/bash
 
-rsync -av --exclude '*/.git' --exclude '*/target' --exclude '*/dependency-reduced-pom.xml' --exclude '/keycloak/bin' --delete /vagrant/keycloak /usr/src/
+rsync -av --exclude '*/.git' --exclude '*/target' --exclude '*/dependency-reduced-pom.xml' --exclude '*/bin' --delete /vagrant/kamome-keycloak/ /usr/src/keycloak/
 cd /usr/src/keycloak
 
 export MAVEN_OPTS="-Xmx1024m -XX:MaxMetaspaceSize=512m"
