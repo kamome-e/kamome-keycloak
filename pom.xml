@@ -97,7 +97,7 @@
         <glassfish.json.version>1.1.2</glassfish.json.version>
         <wildfly.common.version>1.4.0.Final</wildfly.common.version>
         <picketbox.version>5.0.3.Final</picketbox.version>
-        <google.guava.version>25.0-jre</google.guava.version>
+        <google.guava.version>29.0-jre</google.guava.version>
 
         <!-- Authorization Drools Policy Provider -->
         <version.org.drools>7.11.0.Final</version.org.drools>
